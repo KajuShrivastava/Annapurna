@@ -1,0 +1,305 @@
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+#header{
+
+height:100px;
+
+}
+
+#Home{
+
+background-color:#EFF3FF;
+height:500px;
+}
+#Menu{
+height:500px;
+font-family:Tisa sans pro;
+}
+#Contact{
+font-family:kelper;
+background-color:#EFF3FF;
+height:250px;
+}
+.navbar-inverse {
+  position: fixed;
+  width: 100%;
+}
+li
+{
+margin-top:25px;
+font-size:20px;
+}
+.line{
+    width: 1150px;
+    border-bottom: 1.5px solid black;
+    position: absolute;
+    }
+#left
+{
+    /* position: relative; */
+text-align:justify;
+font-family:kelper;
+margin-top:50px;
+margin-left:120px;
+float:left;
+width:30%;
+}
+#right
+{
+margin-left:60px;
+margin-top:20px;
+margin-right:180px;
+float:left;
+width:30%;
+}
+
+#About
+{
+    font-family:Tisa sans pro;
+    font-size:18px;
+    margin-left:300px;  
+}
+
+
+#MenuFooter{
+    margin-left:"20px";
+}
+@media (min-width:991px){
+	#About h3{
+		margin-left: -300px;
+	}
+#Menu table{
+	height:250px;
+	 width:1000px;
+}
+}
+@media (max-width: 480px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    #header{
+    
+height:100px;  
+    }
+
+}
+@media (max-width:990px)
+{
+    #Home{
+
+background-color:#EFF3FF;
+height:950px;
+width: 100%;
+}
+
+#right
+{
+margin-left:20px;
+margin-top: 5px;
+width:30%;
+}
+#right img{
+ width:400px;
+ height:400px;   
+}
+#About
+{
+    font-family:Tisa sans pro;
+    font-size:18px;
+    margin-left:10px;  
+}
+#Menu table{
+    text-align:"center";
+}
+#MenuFooter{
+    margin-left:"350px";
+}
+}
+</style>
+</head>
+<body>
+<div style="background-color:#EFF3FF;">
+
+<!-----------------------Header---------------------------->
+ <div   id="header">
+	<nav class="navbar-inverse  navbar-expand-lg " style="background-color:#EFF3FF;font-size:18px;">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menubar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#"><img src="img/Logo.jpg" class="img-responsive" width="250px"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="menubar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#Home" style="color:black;">Home</a></li>
+				<li><a href="#About" style="color:black;">About</a></li>
+				<li><a href="#Menu" style="color:black;">Menu</a></li>
+				<li><a href="#Contact" style="color:black;">Contact</a></li>
+			</ul>
+			</div>
+		<div class="line"></div>
+		</div>
+	</nav>
+</div>	
+
+
+
+
+
+
+
+
+
+
+<!-----------------------Home---------------------------->
+<div class='container' style="background-color:#EFF3FF" id="Home">
+	<div id='left'>
+ 
+		<center><h1>A DELICIOUS JOURNEY.</h1></center>
+		<h4><i><b>Lunch & Dinner meals starting @ just Rs. 60</b></i></h4>
+		<h5>Delicious home made food from our kitchen to your home is now just one call away.</h5>
+		<h5>Special items will be prepared on special order & at extra charge.</h5>
+		<h3>Home Delivery Available</h3>
+    </div>
+    
+
+    <div id="right">
+        <img src="img/Food2.jpg">
+    </div>
+</div>
+
+</div>
+<!--  navigation bar+home ka division end here -->
+<div class="line" style="width:100%;"></div>
+<br>
+
+
+
+
+
+
+<!-----------------------About---------------------------->
+<div id="About" >
+    <center><h3>ABOUT</h3></center>
+    <br>
+    <p>How about healthy home made food at your door step? We are here to serve fresh and healthy home made food to give
+    you ghar wali feeling.</p>
+    <p>So make sure you don't skip your meal and enjoy a super delicious meal at your doorstep.</p>
+    <p>Enjoy a variety of hot and hygeinic desi food with our customisable meal plans.</p>
+    
+</div>
+<br>
+<br>
+
+
+
+
+<!-----------------------Menu---------------------------->
+<div id="Menu">
+	<center><h3>MENU</h3></center>
+	<br>
+	<center>
+		<table  style="text-align:center;">
+
+			<tr>
+				<th style="text-align:center;color:#800000;">MINI TIFFIN @ 60/-</th>
+				<th style="text-align:center;color:#800000;">LARGE TIFFIN @ 80/-</th>
+				<th style="text-align:center;color:#800000;">SHAHI TIFFIN @ 110/-</th>
+			</tr>
+			<tr>
+				<td>Dal</td>
+				<td>Dal</td>
+				<td>Paneer Subji</td>
+			</tr>
+			<tr>
+				<td>Dry Subji</td>
+				<td>Dry Subji</td>
+				<td>Dal Fry</td>
+			</tr>
+			<tr>
+				<td>Tawa Roti</td>
+				<td>Tawa Roti</td>
+				<td>Dry Subji</td>
+			</tr>
+			<tr>
+				<td>Rice</td>
+				<td>Rice</td>
+				<td>Tawa Roti</td>
+			</tr>
+			<tr>
+				<td>Salad</td>
+				<td>Salad</td>
+				<td>Jeera Rice</td>
+			</tr>
+			<tr>
+				<td>Pickle</td>
+				<td>Pickle</td>
+				<td>Salad</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Raita</td>
+				<td>Pickle</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Raita</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Sweet</td>
+			</tr>
+
+		</table>
+	</center>
+	<!-- <div id="MenuFooter">
+		<b><i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;margin-top:80px;"></i>-HOMELY TASTE
+		<i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;margin-left:160px;"></i>-HYGIENIC AND HEALTHY
+		<i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;margin-left:180px;"></i>-SAFE DELIVERY </b>
+    </div> -->
+   <center>
+        <div class='container row'>
+        <div class='col-4'>
+            <b><i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;margin-top:45px;"></i>-HOMELY TASTE</b>
+        </div>
+
+        <div class='col-4'>
+            <b><i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;"></i>-SAFE DELIVERY </b>
+        </div>
+        <div class='col-4'>
+            <b><i class="fa fa-check-circle" style="font-size:30px;color:lightgreen;"></i>-HYGIENIC AND HEALTHY</b>
+        </div>
+    </div>
+</center></div>
+<div class="line" style="width:100%;"></div>
+
+
+<!-----------------------Contact---------------------------->
+<div id="Contact">
+    <br>
+    <br>
+        <center><h2>GIVE YOUR HUNGER A NEW OPTION</h2>
+        <h3>Contact Us 9:00 AM - 10:00 PM</h3>
+        <h1><i style="font-size:50px" class="fa">&#xf232;</i>
+    8287774391, 9871772383</h1>
+    </center>
+    </div>
+
+
+
+</body>
+</html>
